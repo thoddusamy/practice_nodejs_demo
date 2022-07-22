@@ -11,7 +11,7 @@ app.use(express.json())
 
 //cors origin setup
 app.use(cors({
-    origin: 'https://shimmering-bombolone-d376b1.netlify.app'
+    origin: '*'
 }))
 
 
