@@ -121,4 +121,4 @@ app.delete('/student/:id', async (request, response) => {
     }
 })
 
-app.listen(6999);
+app.listen(process.env.PORT || 6999);
