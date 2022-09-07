@@ -15,9 +15,7 @@ app.use(cors({
 }))
 
 app.get('/', async (request, response) => {
-    response.json({
-        message: "Port Running 🏃‍♂️"
-    })
+    response.send("Port is Running 🏃‍♂️")
 })
 
 app.get('/students', async (request, response) => {
