@@ -14,6 +14,9 @@ app.use(cors({
     origin: '*'
 }))
 
+app.get('/', async (request, response) => {
+    response("Port Running 🏃‍♂️")
+})
 
 app.get('/students', async (request, response) => {
     try {
